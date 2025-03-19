@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace modul5_103022300016
 {
@@ -10,6 +11,8 @@ namespace modul5_103022300016
     {
         public void DapatkanNilaiTerbesar<T>(T a, T b, T c)
         {
+            // penggunaan variable sementara bertipe data dynamic untuk konfigurasi semua tipe data
+
             dynamic A = (dynamic)a;
             dynamic B = (dynamic)b;
             dynamic C = (dynamic)c;

@@ -8,6 +8,8 @@ namespace modul5_103022300016
 {
     class SimpleDataBase<T>
     {
+        // Variabel bertipe data generic T agar bisa menerima input data dari variable apapun
+
         private List<T> storedData;
         private List<DateTime> inputDates;
 
